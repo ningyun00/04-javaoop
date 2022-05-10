@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c86f222b-71c8-4364-9060-87518d0947ac" name="Default Changelist" comment="" />
+    <list default="true" id="ac5ead3e-89f7-480e-92a6-499a17fa6735" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +10,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -25,7 +26,7 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="ProjectId" id="28xdgwJTAhSxIqvx9OjstyzrYIj" />
+  <component name="ProjectId" id="299e2065jZVXTrDpwafSz1mGb5U" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,15 +37,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../11-2022-05-14" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="onclass.four.Test" />
-      <module name="08-2022-05-10" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\S2\04-javaoop\11-2022-05-14-15" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bookmanage.user.Main" />
+      <module name="11-2022-05-14-15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="onclass.four.*" />
+          <option name="PATTERN" value="bookmanage.user.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -52,41 +60,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="onclass.three.Test" />
-      <module name="08-2022-05-10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="onclass.three.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c86f222b-71c8-4364-9060-87518d0947ac" name="Default Changelist" comment="" />
-      <created>1652162288691</created>
+      <changelist id="ac5ead3e-89f7-480e-92a6-499a17fa6735" name="Default Changelist" comment="" />
+      <created>1652529519028</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1652162288691</updated>
-      <workItem from="1652162290085" duration="80000" />
-      <workItem from="1652162437729" duration="6249000" />
-      <workItem from="1652230218259" duration="55000" />
+      <updated>1652529519028</updated>
+      <workItem from="1652529520934" duration="19450000" />
+      <workItem from="1652587759504" duration="567000" />
+      <workItem from="1652588371229" duration="4918000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
