@@ -16,15 +16,8 @@ import java.sql.*;
  * 6.使用预编译对象查询 Student 表中名字以"小"开头的记录
  * ClassName: One <br/>
  * date: 2022-05-21 上午 11:14:49 <br/>
- *
- * @author: 寜 <br/>
- * @version: JDK 17.0.1
  */
 public class One {
-    /**
-     * @Description:
-     * @Class: One
-     */
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/scott", "root", "root");
