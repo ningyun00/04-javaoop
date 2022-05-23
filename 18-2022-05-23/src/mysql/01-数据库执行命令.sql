@@ -22,15 +22,15 @@ DROP TABLE IF EXISTS `products`;
 
 CREATE TABLE `products` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(50) NOT NULL,
+  `NAME` varchar(50) NOT NULL,
   `price` int(11) NOT NULL,
   `remark` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 
 /*Data for the table `products` */
 
-insert  into `products`(`id`,`name`,`price`,`remark`) values (5,'蛋糕',5,'无'),(7,'火腿肠',5,'无'),(8,'热狗',5,'无'),(9,'牛角包',5,'无'),(10,'鸡肉',5,'无'),(11,'牛肉',5,'无'),(12,'牛肉',5,'无');
+insert  into `products`(`id`,`NAME`,`price`,`remark`) values (3,'鸡蛋',15,'无'),(4,'面包',3,'无'),(5,'面包',3,'无'),(6,'面包',3,'无'),(7,'面包2',3,'无'),(8,'面包2',3,'无'),(9,'面包6',3,'无'),(10,'面包6',3,'无'),(11,'面包6',3,'无');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;

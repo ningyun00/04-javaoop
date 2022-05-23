@@ -29,7 +29,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../00-mysql-connector-java-8.0.28/mysql-connector-java-8.0.28.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -37,16 +37,30 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="onclass.three.entity" />
       <recent name="onclass.two.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
+  <component name="RunManager" selected="Application.Test (2)">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="onclass.two.test.Test" />
       <module name="18-2022-05-23" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="onclass.two.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="onclass.three.test.Test" />
+      <module name="18-2022-05-23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="onclass.three.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
       </list>
@@ -93,7 +108,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653267097771</updated>
-      <workItem from="1653267099349" duration="15768000" />
+      <workItem from="1653267099349" duration="16470000" />
+      <workItem from="1653307961350" duration="1358000" />
+      <workItem from="1653321502724" duration="3388000" />
     </task>
     <servers />
   </component>
