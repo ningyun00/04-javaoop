@@ -16,7 +16,7 @@ import java.util.Scanner;
  * author: 寜 <br/>
  */
 public class UDPSender implements Runnable {
-    DatagramSocket datagramSocket = null;//数据包套字结   对象
+    DatagramSocket datagramSocket = null;//数据包 套结字   对象
     private String IP;//本地IP地址
     private int sendPort;//发送端口号
 
