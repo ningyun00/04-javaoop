@@ -20,11 +20,12 @@ public class WedHtml {
                 OutputStream outputStream = socket.getOutputStream();
                 outputStream.write("HTTP/1.1 200 OK\r\nContent-Type:text/html\n".getBytes());
                 outputStream.write("\r\n".getBytes());
-                byte[] bytes = new byte[1024];
-                int len = inputStream.read(bytes);
+//                byte[] bytes = new byte[1024];
+                int len = inputStream.read();
                 while (len != -1) {
-                    outputStream.write(bytes, 0, len);
-                    len = inputStream.read(bytes);
+//                    outputStream.write(bytes, 0, len);
+                    outputStream.write(len);
+                    len = inputStream.read();
                 }
                 outputStream.flush();
             } catch (Exception e) {

@@ -29,15 +29,55 @@
     <property name="TODO_SCOPE" value="All Data Sources" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../00-自由创作/01-灵感一" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Application.WedHtml">
+  <component name="RunManager" selected="Application.Six">
+    <configuration name="Five" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="onclass.five.Five" />
+      <module name="21-2022-05-26" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="onclass.five.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Four" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="onclass.four.Four" />
+      <module name="21-2022-05-26" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="onclass.four.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="One" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="onclass.three.One" />
       <module name="21-2022-05-26" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="onclass.three.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Six" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="onclass.six.Six" />
+      <module name="21-2022-05-26" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="onclass.six.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,19 +98,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WedServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="onclass.one.WedServer" />
-      <module name="21-2022-05-26" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="onclass.one.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -84,9 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Six" />
+        <item itemvalue="Application.Five" />
+        <item itemvalue="Application.Four" />
         <item itemvalue="Application.WedHtml" />
         <item itemvalue="Application.One" />
-        <item itemvalue="Application.WedServer" />
       </list>
     </recent_temporary>
   </component>
@@ -99,6 +128,8 @@
       <option name="presentableId" value="Default" />
       <updated>1653532574293</updated>
       <workItem from="1653532575996" duration="8624000" />
+      <workItem from="1653550176154" duration="597000" />
+      <workItem from="1653556324977" duration="20765000" />
     </task>
     <servers />
   </component>
