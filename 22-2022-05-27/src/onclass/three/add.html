@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!--3.新建 add.html 文件在其中创建 form 表单
+    1).在表单中创建用户名: 输入框
+    2).在表单中创建密码: 输入框
+    3).在表单中创建性别: 单选按钮
+    4).在表单中创建爱好: 多选按钮(足球,篮球,java,sql)
+    5).在表单中创建提交按钮
+    6).在表单中创建重置按钮-->
+    <form action="" method="post">
+        <span>
+            姓名
+            <input type="text" name="name" value="" />
+        </span>
+        <br />
+        <span>
+            密码
+            <input type="password" name="name" value="" />
+        </span>
+        <br />
+        <span>
+            性别
+            <input type="radio" name="name" checked="checked" value="女" />
+            女
+            <input type="radio" name="name" value="男" />男
+        </span>
+        <br />
+        <p>
+            爱好：
+            <span>足球</span><input type="checkbox" name="name" value="足球" />
+            <span>篮球</span><input type="checkbox" name="name" value="篮球" />
+            <span>java</span><input type="checkbox" name="name" value="java" />
+            <span>sql</span><input type="checkbox" name="name" value="sql" />
+        </p>
+        <p>
+            <input type="button" name="name" value="提交" />
+            <input type="button" name="name" value="重置" />
+        </p>
+    </form>
+</body>
+</html>
