@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Animals>
+	<Animal id="01">
+		<name>小猫</name>
+		<type>花猫</type>
+	</Animal>
+	<Animal id="02">
+		<name>中猫</name>
+		<type>黑猫</type>
+	</Animal>
+	<Animal id="03">
+		<name>大猫</name>
+		<type>白猫</type>
+	</Animal>
+</Animals>

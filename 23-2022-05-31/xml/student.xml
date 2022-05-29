@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+	<student id="001">
+		<name>曹操</name>
+		<sex>男</sex>
+	</student>
+	<student id="002">
+		<name>欧阳峰</name>
+		<sex>男</sex>
+	</student>
+	<student id="003">
+		<name>貂蝉</name>
+		<sex>女</sex>
+	</student>
+</students>

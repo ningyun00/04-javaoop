@@ -29,7 +29,7 @@
     <property name="TODO_SCOPE" value="All Data Sources" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../22-2022-05-27" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager" selected="Application.Five">
@@ -98,19 +98,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Five" />
@@ -135,6 +122,7 @@
       <workItem from="1653612658479" duration="2518000" />
       <workItem from="1653621385733" duration="1256000" />
       <workItem from="1653624186235" duration="3884000" />
+      <workItem from="1653836416549" duration="9000" />
     </task>
     <servers />
   </component>

@@ -28,11 +28,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../21-2022-05-26" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Four">
+  <component name="RunManager" selected="Application.DeadLock">
     <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="onclass.two.DeadLock" />
       <module name="22-2022-05-27" />
@@ -72,21 +72,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Four" />
         <item itemvalue="Application.DeadLock" />
+        <item itemvalue="Application.Four" />
         <item itemvalue="Application.SetThePriority" />
       </list>
     </recent_temporary>
@@ -100,6 +89,8 @@
       <option name="presentableId" value="Default" />
       <updated>1653620086715</updated>
       <workItem from="1653620088199" duration="8468000" />
+      <workItem from="1653836434516" duration="889000" />
+      <workItem from="1653890050871" duration="55000" />
     </task>
     <servers />
   </component>
