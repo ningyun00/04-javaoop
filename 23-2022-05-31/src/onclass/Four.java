@@ -32,7 +32,6 @@ public class Four {
         OutputFormat outputFormat = new OutputFormat("\t", true);//格式化,碰到\t换行
         outputFormat.setTrimText(true);//这句话是给追加的准备的,碰到回车不换行,防止追加的没空行，之前的有空行
         Writer writer = new OutputStreamWriter(new FileOutputStream(path), StandardCharsets.UTF_8);//将文件输出流转化成writer对象
-
         XMLWriter xmlWriter = new XMLWriter(writer, outputFormat);//获取xml文件输出流
         xmlWriter.write(document);//向writer写入doc
         xmlWriter.close();

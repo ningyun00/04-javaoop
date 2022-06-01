@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8807bc0-6d48-45d1-a88c-2e047446bdcb" name="Default Changelist" comment="" />
+    <list default="true" id="b122111f-0f30-417b-978e-4fe66565906b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Tag Library Descriptor" />
-        <option value="xml file" />
         <option value="Class" />
+        <option value="xml file" />
       </list>
     </option>
   </component>
@@ -27,7 +26,7 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="ProjectId" id="29s7mnClJuypiJ2WBPYK1ofuiva" />
+  <component name="ProjectId" id="2A15ThP6xyDdJPz3UOWlqdMPTIC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,22 +37,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xml" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\S2\04-javaoop\23-2022-05-31\xml" />
-      <recent name="E:\S2\04-javaoop\23-2022-05-31\lib" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.Four">
+  <component name="RunManager" selected="Application.Five">
+    <configuration name="Five" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="onclass.Five" />
+      <module name="24-2022-06-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="onclass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Four" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="onclass.Four" />
-      <module name="23-2022-05-30" />
+      <module name="24-2022-06-01" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="onclass.*" />
@@ -66,7 +68,7 @@
     </configuration>
     <configuration name="One" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="onclass.One" />
-      <module name="23-2022-05-30" />
+      <module name="24-2022-06-01" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="onclass.*" />
@@ -79,7 +81,7 @@
     </configuration>
     <configuration name="Three" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="onclass.Three" />
-      <module name="23-2022-05-30" />
+      <module name="24-2022-06-01" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="onclass.*" />
@@ -92,7 +94,7 @@
     </configuration>
     <configuration name="Two" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="onclass.Two" />
-      <module name="23-2022-05-30" />
+      <module name="24-2022-06-01" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="onclass.*" />
@@ -103,29 +105,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Five" />
         <item itemvalue="Application.Four" />
-        <item itemvalue="Application.One" />
         <item itemvalue="Application.Three" />
         <item itemvalue="Application.Two" />
+        <item itemvalue="Application.One" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b8807bc0-6d48-45d1-a88c-2e047446bdcb" name="Default Changelist" comment="" />
-      <created>1653890110065</created>
+      <changelist id="b122111f-0f30-417b-978e-4fe66565906b" name="Default Changelist" comment="" />
+      <created>1654164263729</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1653890110065</updated>
-      <workItem from="1653890111815" duration="1419000" />
-      <workItem from="1653979632180" duration="1527000" />
-      <workItem from="1653984127105" duration="5242000" />
-      <workItem from="1654010822079" duration="8044000" />
-      <workItem from="1654044770322" duration="2536000" />
-      <workItem from="1654161245151" duration="1603000" />
+      <updated>1654164263729</updated>
+      <workItem from="1654164265495" duration="5785000" />
     </task>
     <servers />
   </component>
