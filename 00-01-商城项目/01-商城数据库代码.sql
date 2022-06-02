@@ -30,8 +30,8 @@ CREATE TABLE employee(
 	EOffice	INT NOT NULL,				-- 员工职务
 	EWages FLOAT NOT NULL,				-- 员工工资
 	EBonus FLOAT NOT NULL,				-- 员工奖金
-	ETime DATE NOT NULL,  				-- 员工入职时间
-	EEndTime DATE,					-- 员工离职时间
+	ETime DATETIME NOT NULL  DEFAULT CURRENT_TIMESTAMP,  				-- 员工入职时间
+	EEndTime DATETIME,					-- 员工离职时间
 	EName	VARCHAR(25) NOT NULL,			-- 员工姓名
 	ESex VARCHAR(2) NOT NULL,			-- 员工性别
 	ENumber VARCHAR(18) NOT NULL,			-- 员工电话号码
@@ -56,11 +56,12 @@ CREATE TABLE administrator(
 	AOffice INT NOT NULL,				-- 管理员职务
 	AWages FLOAT NOT NULL,				-- 管理员工资
 	ABonus	FLOAT NOT NULL,				-- 管理员奖金
-	ATime DATE NOT NULL, 				-- 管理员入职时间
-	AEndTime DATE ,					-- 管理员离职时间
+	ATime DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP, 	-- 管理员入职时间
+	AEndTime DATETIME ,					-- 管理员离职时间
 	AName VARCHAR(25) NOT NULL,			-- 管理员姓名
 	ASex VARCHAR(2) NOT NULL,			-- 管理员性别
-	ANumber VARCHAR(18) NOT NULL,			-- 管理员住址
+	ANumber VARCHAR(18)NOT NULL,			-- 管理员电话号码
+	AAddress VARCHAR(100) NOT NULL,			-- 管理员住址
 	AUser INT NOT NULL,				-- 管理员管理用户
 	ARemark	VARCHAR(100),				-- 管理员备注
 	CONSTRAINT `fk_administratorType_administrator` FOREIGN KEY (`AOffice`) REFERENCES `community`.`administratorType`(`ATID`),
@@ -86,3 +87,36 @@ INSERT INTO `communitytable` VALUES(NULL,'小熊饼干',2,5,DEFAULT,5,5,NULL);
 INSERT INTO `communitytable` VALUES(NULL,'草莓',4,5,DEFAULT,5,5,NULL);
 INSERT INTO `communitytable` VALUES(NULL,'草莓干',3,5,DEFAULT,5,5,NULL);
 INSERT INTO `communitytable` VALUES(NULL,'旺仔牛奶',1,3,DEFAULT,3,3,NULL);
+
+TRUNCATE TABLE communitytable;
+DELETE FROM communitytable WHERE CID = 1;
+UPDATE communitytable SET CName = '西瓜',CTID = 1,CInputPrice = 5,CTime = DEFAULT,CPrice =  0,CCurrent=0,CRemark = NULL WHERE CID = 1;
+SELECT * FROM communitytable;
+DELETE FROM communitytype WHERE TID = 1;
+UPDATE communitytype SET TName = 'sdf',TRemark = '阿斯顿飞过' WHERE TID = 2;
+
+# 添加管理员类型
+INSERT INTO `administratortype` VALUES(NULL,'财务',2000,NULL);
+INSERT INTO `administratortype` VALUES(NULL,'经理',6000,NULL);
+INSERT INTO `administratortype` VALUES(NULL,'副经理',5000,NULL);
+INSERT INTO `administratortype` VALUES(NULL,'总监',3000,NULL);
+
+# 添加员工类型
+INSERT INTO `office` VALUES(NULL,'编辑1',2000,NULL);
+INSERT INTO `office` VALUES(NULL,'编辑2',2000,NULL);
+INSERT INTO `office` VALUES(NULL,'编辑3',2000,NULL);
+INSERT INTO `office` VALUES(NULL,'编辑4',2000,NULL);
+# 添加员工
+INSERT INTO `employee` VALUES(NULL,'123','123',1,2000,20,DEFAULT,NULL,'小','女','10029102','地区',NULL);
+INSERT INTO `employee` VALUES(NULL,'124','124',2,3000,20,DEFAULT,NULL,'中','女','10029103','地里',NULL);
+INSERT INTO `employee` VALUES(NULL,'125','125',3,4000,20,DEFAULT,NULL,'中小','女','10029104','地上',NULL);
+INSERT INTO `employee` VALUES(NULL,'126','126',4,5000,20,DEFAULT,NULL,'大','女','10029105','地下',NULL);
+
+TRUNCATE TABLE administrator;
+INSERT INTO `administrator` VALUES(NULL,'123','123',1,2000,0,DEFAULT,NULL,'寜','女','100861106','北京',1,NULL);
+DELETE FROM administrator WHERE AID = 2;
+UPDATE administrator SET AAccount = '12',APassword = '12',AOffice = 1,AWages = 200,ABonus = 20,ATime = DEFAULT,AEndTime = NULL,AName = '花',ASex = '女',ANumber = '11111',AAddress = '不知道',AUser = 1,ARemark = NULL WHERE AID = 1;
+SELECT AAccount,APassword FROM administrator WHERE AAccount = '124'AND APassword = '124';
+
+
+
