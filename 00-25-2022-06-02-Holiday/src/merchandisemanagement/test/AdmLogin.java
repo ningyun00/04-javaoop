@@ -13,10 +13,10 @@ import merchandisemanagement.entity.CommunityType;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 public class AdmLogin {
     static Scanner scanner = new Scanner(System.in);
@@ -80,7 +80,7 @@ public class AdmLogin {
                 }
             }
             if (row.equals("6")) {
-               Test.main();
+                Test.main();
             }
             if (row.equals("7")) {
                 System.exit(0);
@@ -91,33 +91,45 @@ public class AdmLogin {
         }
     }
 
-    public static void moreActions() {
-        System.out.println("=====更多操作=====");
-        System.out.println("\t1.修改商品");
-        System.out.println("\t2.删除商品");
-        System.out.println("\t3.查询商品");
-        System.out.println("\t4.删除管理员");
-        System.out.println("\t5.查询管理员");
-        System.out.println("\t6.删除管理职务");
-        System.out.println("\t7.查询管理员职务");
-        System.out.println("\t8.返回主界面");
-        System.out.println("\t9.退出系统");
-        System.out.println("=====更多操作=====");
+    public static void moreActions() throws InterruptedException {
+        System.out.println("==================更多操作================");
+        System.out.println("\t\t\t\t1.修改商品");
+        System.out.println("\t\t\t\t2.删除商品");
+        System.out.println("\t\t\t\t3.查询商品");
+        System.out.println("\t\t\t\t4.删除管理员");
+        System.out.println("\t\t\t\t5.查询管理员");
+        System.out.println("\t\t\t\t6.删除管理职务");
+        System.out.println("\t\t\t\t7.查询管理员职务");
+        System.out.println("\t\t\t\t8.返回主界面");
+        System.out.println("\t\t\t\t9.退出系统");
+        System.out.println("==================更多操作==============");
         String I = scanner.next();
         if (I.equals("1")) {
-    
+
         }
         if (I.equals("2")) {
 
         }
         if (I.equals("3")) {
-
+            System.out.println("正在查询商品请稍等。。。");
+            List<CommunityTable> communityTableList = communityTableInterDao.select();
+            for (CommunityTable communityTable : communityTableList) {
+                System.out.println(communityTable);
+            }
+            System.out.println("查询完毕请等待。。。");
+            TimeUnit.SECONDS.sleep(5);//延时五秒后执行
         }
         if (I.equals("4")) {
 
         }
         if (I.equals("5")) {
-
+            System.out.println("正在查询管理员。。。");
+            List<Administrator> administratorList = administratorInterDao.select();
+            for (Administrator administrator : administratorList) {
+                System.out.println(administrator);
+            }
+            System.out.println("查询完毕请等待。。。");
+            TimeUnit.SECONDS.sleep(5);//延时五秒后执行
         }
         if (I.equals("6")) {
 

@@ -100,7 +100,9 @@ INSERT INTO `administratortype` VALUES(NULL,'财务',2000,NULL);
 INSERT INTO `administratortype` VALUES(NULL,'经理',6000,NULL);
 INSERT INTO `administratortype` VALUES(NULL,'副经理',5000,NULL);
 INSERT INTO `administratortype` VALUES(NULL,'总监',3000,NULL);
-
+delete from `administratortype` where ATID  = 4;
+update `administratortype` set ATName = '总监',ATPrice = 3000,ATRemark = null where ATID = 4;
+select * from `administratortype` where ATID = 1;
 # 添加员工类型
 INSERT INTO `office` VALUES(NULL,'编辑1',2000,NULL);
 INSERT INTO `office` VALUES(NULL,'编辑2',2000,NULL);

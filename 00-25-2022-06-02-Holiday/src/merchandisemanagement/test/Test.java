@@ -1,5 +1,8 @@
 package merchandisemanagement.test;
 
+import merchandisemanagement.dao.table.AdministratorInterDao;
+import merchandisemanagement.entity.Administrator;
+
 import java.util.Scanner;
 
 public class Test {
@@ -43,7 +46,7 @@ public class Test {
         System.exit(0);
     }
 
-    private static int login() {
+    private static int login() {//登录
         System.out.print("请输入用户名：");
         String name = scanner.next();
         System.out.print("请输入密码：");
@@ -51,7 +54,18 @@ public class Test {
         return AdmLogin.select(name, password);
     }
 
-    private static int enroll() {
+    private static int enroll() {//注册
+        int row = 0;
+        AdministratorInterDao administratorInterDao = new AdministratorInterDao();
+        try {
+            System.out.println("请输入账号！");
+            String AAccount = scanner.next();
+            administratorInterDao.add(new Administrator());
+        } catch (Exception e) {
+
+        } finally {
+
+        }
         return 0;
     }
 }

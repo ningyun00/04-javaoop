@@ -25,6 +25,7 @@ public class CommunityTableInterDao implements InterCommunityTableDao {
     public int add(CommunityTable communityTable) {
         row = 0;
         try {
+            connection = DatabaseDao.connect();
             preparedStatement = connection.prepareStatement("INSERT INTO communitytable VALUES(NULL,?,?,?,?,?,?,?)");
             preparedStatement.setString(1, communityTable.getCNAmE());
             preparedStatement.setInt(2, communityTable.getCTID());
@@ -50,6 +51,7 @@ public class CommunityTableInterDao implements InterCommunityTableDao {
     public int del(int id) {
         row = 0;
         try {
+            connection = DatabaseDao.connect();
             preparedStatement = connection.prepareStatement("DELETE FROM communitytable WHERE CID = ?");
             preparedStatement.setInt(1, id);
             row = preparedStatement.executeUpdate();
@@ -65,6 +67,7 @@ public class CommunityTableInterDao implements InterCommunityTableDao {
     @Override
     public int revise(CommunityTable communityTable) {
         try {
+            connection = DatabaseDao.connect();
             preparedStatement = connection.prepareStatement("UPDATE communitytable SET CName = ?,CTID = ?,CInputPrice = ?,CTime = ?,CPrice =  ?,CCurrent = ?,CRemark = ? WHERE CID = ?");
             preparedStatement.setString(1, communityTable.getCNAmE());
             preparedStatement.setInt(2, communityTable.getCTID());
@@ -91,6 +94,7 @@ public class CommunityTableInterDao implements InterCommunityTableDao {
     public List<CommunityTable> select() {
         List<CommunityTable> communityTableList = new ArrayList<>();
         try {
+            connection = DatabaseDao.connect();
             preparedStatement = connection.prepareStatement("SELECT * FROM communitytable");
             resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
@@ -117,6 +121,7 @@ public class CommunityTableInterDao implements InterCommunityTableDao {
     public CommunityTable select(int ID) {
         CommunityTable communityTable = null;
         try {
+            connection = DatabaseDao.connect();
             preparedStatement = connection.prepareStatement("SELECT * FROM communitytable");
             resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
