@@ -1,0 +1,63 @@
+一	数据库：
+	名称			类型		是否非空	主键	备注
+商品表(CommodityTable)：
+	商品编号(CID)		int     		自增	主键 	
+	商品名称(CName)		varchar(25)  	非空
+	商品类型(CTID)		int		非空		主键TID
+	商品录入价格(CInputPrice)	float		非空
+	商品录入时间(CTime)	Date		非空		系统时间	
+	商品原价(CPrice)		float		非空
+	商品现价(CCurrent)		float		非空
+	商品备注(CRemark)		carchar(100)	
+
+商品类别(CommodityType):
+	类别编号(TID)		int		自增	主键
+	类别名称(TName)		varchar(25)	非空
+	类别备注(TRemark)		varchar(100)	
+
+员工(employee):
+	员工编号(EID)		int		自增	主键
+	员工账号(EAccount)		varchar(18)	非空
+	员工密码(EPassword)	varchar(18)	非空
+	员工职务(EOffice)		int		非空		主键OID	
+	员工工资(EWages)		float		非空
+	员工奖金(EBonus)		float		非空
+	员工入职时间(ETime)		date		非空	系统时间
+	员工离职时间(EEndTime)	date				空为在职
+	员工姓名(EName)		varchar(25)	非空
+	员工性别(ESex)		varchar(2)	非空		默认男
+	员工电话号码(ENumber)	varchar(18)	非空
+	员工住址(EAddress)		varchar(100)	非空
+	员工备注(ERemark)		varchar(100)	
+
+职务(Office):
+	职务编号(OID)		int		自增	主键
+	职务名称(OName)		varchar(20)	非空
+	职务工资(OPrice)		float		非空
+	备注(ORemark)		varchar(100)	
+
+管理员(administrator):
+	管理员编号(AID)		int		自增	主键
+	管理员账号(AAccount)	varchar(8)	非空
+	管理员密码(APassword)	varchar(18)	非空
+	管理员职务(AOffice)		int		非空
+	管理员工资(AWages)	float		非空
+	管理员奖金(ABonus)		float		非空
+	管理员入职时间(ATime)	date		非空		系统时间
+	管理员离职时间(AEndTime)	date				空为在职
+	管理员姓名(AName)		varchar(25)	非空
+	管理员性别(ASex)		varchar(2)	非空		默认为男
+	管理员电话号码(ANumber)	varchar(18)	非空
+	管理员住址(AAddress)	varchar(100)	非空
+	管理员管理用户数量(AUser)	int		非空	
+	管理员备注(ERemark)	varchar(100)	
+
+管理员职务(administratorType):
+	职务类别(ATID)		int		自增	主键
+	职务名称(ATName)		varchar(20)	非空		职务为财务时可以修改管理员和员工的工资
+	职务工资(ATPrice)		float		非空
+	职务备注(ATRemark)	varchar(100)
+
+二	操作系统
+	1、登录界面	选择权限(员工、管理员)
+	2、管理员拥有所有权限(除资金修改)
